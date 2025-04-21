@@ -1,0 +1,244 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+ --text-color: #2C2C2C;
+}
+.container {
+width: 1248px;
+ margin-left: auto;
+  margin-right: auto;
+   padding: 0 16px;
+}
+.body {
+  font-family: "Roboto";
+}
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header__logo {
+    width: 66px;
+height: 52px;
+flex-shrink: 0;
+background: #FEFEFE;
+box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
+}
+.header__list {
+}
+.header__item {
+}
+.header__link {
+    color: var(--text-color);
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header__button {
+  color: var(--text-color);
+text-align: right;
+font-family: "Roboto";
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 19.5px */
+display: inline-flex;
+padding: 6px 18px;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+background-color: #BBF330;
+}
+.hero {
+}
+.hero__title {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 57.6px */
+}
+.hero__text {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.hero__button {
+    color: var(--text-color);
+text-align: right;
+font-family: "Roboto";
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 19.5px */
+display: inline-flex;
+padding: 6px 18px;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+background-color: #BBF330;
+}
+.hero__img {
+   width: 528px;
+height: 528px;
+flex-shrink: 0;
+border-radius: 269px;
+background: url(<path-to-image>) lightgray -96.371px -32.416px / 136.096% 109.377% no-repeat;
+}
+.service {
+}
+.service__img {
+  width: 396px;
+height: 502px;
+flex-shrink: 0;
+border-radius: 262px;
+/* background: url(<path-to-image>) lightgray 0px 45.202px / 100% 118.846% no-repeat; */
+}
+.service__title {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 50.4px */
+}
+.service__text {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.service__list {
+}
+.service__item {
+}
+.service__subtitle {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+}
+.service__info {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+}
+.service__button {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 19.5px */
+display: inline-flex;
+padding: 10px 22px;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+border: 2px solid var(--Dark-green, #7EB101);
+background: #FFF;
+}
+.menu {
+  padding-top: 100px;
+  padding-bottom: 141px;
+}
+.menu__title {
+  color: var(--text-color);
+text-align: center;
+font-family: "Roboto";
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.menu__text {
+  color: var(--text-color);
+text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__img {
+  width: 315px;
+height: 315px;
+flex-shrink: 0;
+border-radius: 164.5px;
+/* background: url(<path-to-image>) lightgray 1.915px -5.745px / 96.294% 96.353% no-repeat; */
+}
+.reviews {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.reviews__title {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.reviews__text {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.reviews__list {
+  width: 501px;
+height: 227px;
+flex-shrink: 0;
+fill: #FEFEFE;
+}
+.reviews__item {
+}
+.reviews__info {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.reviews__img {
+  width: 48px;
+height: 48px;
+}
+.reviews__subtitle {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
+}
+.reviews__meta {
+  color: var(--text-color);
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+}
