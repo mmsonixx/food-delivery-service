@@ -22,9 +22,9 @@
   </head>
   <body class="body">
     <section class="header">
-      <div class="container">
-        <img class="header__logo" src="./img/header/vector.webp" alt="logo" />
-        <nav>
+      <div class="container header__container">
+        <img class="header__logo" src="./img/header/logo.webp" alt="logo" />
+        <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
               <a class="header__link" href="./index.html">Home</a>
@@ -47,43 +47,49 @@
       </div>
     </section>
     <section class="hero">
-      <div class="container">
-        <h1 class="hero__title">Enjoy Your Favorite Food From Anywhere</h1>
-        <p class="hero__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-        </p>
-        <button class="hero__button">Order Now</button>
+      <div class="container hero__container">
+        <div class="hero__box">
+          <h1 class="hero__title">Enjoy Your Favorite Food From Anywhere</h1>
+          <p class="hero__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat.
+          </p>
+          <button class="hero__button">Order Now</button>
+        </div>
         <img class="hero__img" src="./img/hero/food.webp" alt="food" />
       </div>
     </section>
     <section class="service">
-      <div class="container">
+      <div class="container service__container">
         <img class="service__img" src="./img/service/apple.webp" alt="apple" />
-        <h2 class="service__title">What’s Special About Our Offerings</h2>
-        <p class="service__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-        </p>
-        <ul class="service__list">
-          <li class="service__item">
-            <h3 class="service__subtitle">Fasest Delivery</h3>
-            <p class="service__info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros.
-            </p>
-          </li>
-          <li class="service__item">
-            <h3 class="service__subtitle">Easy To Order</h3>
-            <p class="service__info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros.
-            </p>
-          </li>
-        </ul>
-        <button class="service__button">Order Now</button>
+        <div class="service__box">
+          <h2 class="service__title">What’s Special About Our Offerings</h2>
+          <p class="service__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat.
+          </p>
+          <ul class="service__list">
+            <li class="service__item">
+              <h3 class="service__subtitle">Fasest Delivery</h3>
+              <p class="service__info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+            </li>
+            <li class="service__item">
+              <h3 class="service__subtitle">Easy To Order</h3>
+              <p class="service__info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+            </li>
+          </ul>
+          <button class="service__button">Order Now</button>
+        </div>
       </div>
     </section>
     <section class="menu">
@@ -133,19 +139,86 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <ul class="reviews__list">
-            <li class="reviews__item">
-                <p class="reviews__info">“The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind, No questions asked”</p>
-                <img class="reviews__img" src="./img/reviews/man.webp" alt="man" >
-                <h3 class="reviews__subtitle">Sumith Shah</h3>
-                <p class="reviews__meta">Some Dude</p>
-            </li>
-            <li class="reviews__item">
-                <p class="reviews__info">“The ease with which I can just go in and order what i want was amazing, It has been a very pleasant experience ordering from this app”</p>
-                <img class="reviews__img" src="./img/reviews/woman.webp" alt="woman" >
-                <h3 class="reviews__subtitle">Sumith Shah</h3>
-                <p class="reviews__meta">Some Dude</p>
-            </li>
+          <li class="reviews__item">
+            <p class="reviews__info">
+              “The Best app I have used to order food in a while, so many
+              options to choose from too, I would recommend to a freind, No
+              questions asked”
+            </p>
+            <img class="reviews__img" src="./img/reviews/man.webp" alt="man" />
+            <h3 class="reviews__subtitle">Sumith Shah</h3>
+            <p class="reviews__meta">Some Dude</p>
+          </li>
+          <li class="reviews__item">
+            <p class="reviews__info">
+              “The ease with which I can just go in and order what i want was
+              amazing, It has been a very pleasant experience ordering from this
+              app”
+            </p>
+            <img
+              class="reviews__img"
+              src="./img/reviews/woman.webp"
+              alt="woman"
+            />
+            <h3 class="reviews__subtitle">Sumith Shah</h3>
+            <p class="reviews__meta">Some Dude</p>
+          </li>
         </ul>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="container">
+        <h2 class="subscribe__title">Subscribe To Get Special Offers</h2>
+        <p class="subscribe__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique.
+        </p>
+        <form class="subscribe__field" action="">
+          <input
+            class="subscribe__input"
+            type="email"
+            placeholder="Enter your email"
+          />
+          <button class="subscribe__button" type="submit">Subscribe</button>
+        </form>
+        <img
+          class="subscribe__img"
+          src="./img/subscribe/banan.webp"
+          alt="banan"
+        />
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <img class="footer__logo" src="./img/header/logo.webp" alt="logo" />
+        <nav>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="./index.html">Home</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="">About</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="">Service</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="">Menu</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <h2 class="footer__title">Subscribe</h2>
+        <form class="footer__field" action="">
+          <input
+            class="footer__input"
+            type="email"
+            placeholder="Enter your email"
+          />
+          <button class="footer__button" type="submit">Subscribe</button>
+        </form>
       </div>
     </section>
   </body>
