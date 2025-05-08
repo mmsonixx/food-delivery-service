@@ -167,20 +167,24 @@
       </div>
     </section>
     <section class="subscribe">
-      <div class="container">
-        <h2 class="subscribe__title">Subscribe To Get Special Offers</h2>
-        <p class="subscribe__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique.
-        </p>
-        <form class="subscribe__field" action="">
-          <input
-            class="subscribe__input"
-            type="email"
-            placeholder="Enter your email"
-          />
-          <button class="subscribe__button" type="submit">Subscribe</button>
-        </form>
+      <div class="container subscribe__container">
+        <div class="subscribe__box">
+          <h2 class="subscribe__title">Subscribe To Get Special Offers</h2>
+          <p class="subscribe__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+          <form class="subscribe__field" action="">
+            <label class="subscribe__label" for="">
+              <input
+                class="subscribe__input"
+                type="email"
+                placeholder="Enter your email"
+              />
+            </label>
+            <button class="subscribe__button" type="submit">Subscribe</button>
+          </form>
+        </div>
         <img
           class="subscribe__img"
           src="./img/subscribe/banan.webp"
@@ -189,9 +193,9 @@
       </div>
     </section>
     <section class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <img class="footer__logo" src="./img/header/logo.webp" alt="logo" />
-        <nav>
+        <nav class="footer__nav">
           <ul class="footer__list">
             <li class="footer__item">
               <a class="footer__link" href="./index.html">Home</a>
@@ -210,15 +214,20 @@
             </li>
           </ul>
         </nav>
-        <h2 class="footer__title">Subscribe</h2>
-        <form class="footer__field" action="">
-          <input
-            class="footer__input"
-            type="email"
-            placeholder="Enter your email"
-          />
-          <button class="footer__button" type="submit">Subscribe</button>
-        </form>
+        <div footer__box>
+          <h2 class="footer__title">Subscribe</h2>
+          <form class="footer__field" action="">
+            <label for="" class="footer__label">
+              <input
+                class="footer__input"
+                type="email"
+                placeholder="Enter your email"
+              />
+            </label>
+            <button class="footer__button" type="submit">Subscribe</button>
+          </form>
+        </div>
+        <ul class="footer__"></ul>
       </div>
     </section>
   </body>
