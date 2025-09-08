@@ -1,0 +1,16 @@
+@import "./base/common";
+@import "./base/reset";
+@import "./utils/mixin";
+@import "./utils/variebles";
+@import "./utils/placeholders";
+
+// COMPONENTS
+
+@import "./components/header";
+@import "./components/hero";
+@import "./components/service";
+@import "./components/menu";
+@import "./components/reviews";
+@import "./components/subscribe";
+@import "./components/footer";
+@import "./components/scroll-top";

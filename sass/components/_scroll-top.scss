@@ -1,0 +1,27 @@
+.scroll__top {
+    background: #bbf330;
+    position: fixed;
+     bottom: 20px;
+    right: 40px;
+      width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+.iocn__to-top {
+    width: 30px;
+    height: 40px;
+    fill: #eee;
+}
+.scroll__top.active {
+    bottom: 40px;
+    pointer-events: auto;
+    opacity: 1;
+}
